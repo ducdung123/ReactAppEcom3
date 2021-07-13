@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactAppEcom3/static/css/main.097b29d7.chunk.css",
+    "main.js": "/ReactAppEcom3/static/js/main.2760f371.chunk.js",
+    "main.js.map": "/ReactAppEcom3/static/js/main.2760f371.chunk.js.map",
+    "runtime-main.js": "/ReactAppEcom3/static/js/runtime-main.7f6ff3d7.js",
+    "runtime-main.js.map": "/ReactAppEcom3/static/js/runtime-main.7f6ff3d7.js.map",
+    "static/css/2.b7f73291.chunk.css": "/ReactAppEcom3/static/css/2.b7f73291.chunk.css",
+    "static/js/2.da349f56.chunk.js": "/ReactAppEcom3/static/js/2.da349f56.chunk.js",
+    "static/js/2.da349f56.chunk.js.map": "/ReactAppEcom3/static/js/2.da349f56.chunk.js.map",
+    "static/js/3.4f72e57a.chunk.js": "/ReactAppEcom3/static/js/3.4f72e57a.chunk.js",
+    "static/js/3.4f72e57a.chunk.js.map": "/ReactAppEcom3/static/js/3.4f72e57a.chunk.js.map",
+    "index.html": "/ReactAppEcom3/index.html",
+    "static/css/2.b7f73291.chunk.css.map": "/ReactAppEcom3/static/css/2.b7f73291.chunk.css.map",
+    "static/css/main.097b29d7.chunk.css.map": "/ReactAppEcom3/static/css/main.097b29d7.chunk.css.map",
+    "static/js/2.da349f56.chunk.js.LICENSE.txt": "/ReactAppEcom3/static/js/2.da349f56.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f6ff3d7.js",
+    "static/css/2.b7f73291.chunk.css",
+    "static/js/2.da349f56.chunk.js",
+    "static/css/main.097b29d7.chunk.css",
+    "static/js/main.2760f371.chunk.js"
+  ]
+}
