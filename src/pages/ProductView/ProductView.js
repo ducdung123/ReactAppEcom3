@@ -143,7 +143,7 @@ function ProductView(props) {
                                     onClick={onAddWishList}
                                 ></i>
                             </div>
-                            <Link to='/cart' exact='true'>
+                            <Link to='/cart/' exact='true'>
                                 <button className="productview__content__infor__cart">
                                     View Cart
                                 </button>

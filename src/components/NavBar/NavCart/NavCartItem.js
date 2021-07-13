@@ -19,6 +19,7 @@ function NavCartItem(props) {
     let dispatch = useDispatch();
 
     let pathvalueImg = value.img.split('/');
+    // value.img = '../' + value.img;
     while ((pathvalueImg.length - pathUrl.length) != 1) {
         //2Th
         //1 =

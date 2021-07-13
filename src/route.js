@@ -21,7 +21,7 @@ const routes = [
         main: () => { return <ProductView /> }
     },
     {
-        path: '/cart',
+        path: '/cart/',
         exact: false,
         main: () => { return <Cart /> }
     },

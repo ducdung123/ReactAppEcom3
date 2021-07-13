@@ -23,6 +23,7 @@ function WishListItem(props) {
     // }
 
     let pathvalueImg = value.img.split('/');
+    // value.img = '../' + value.img;
     while ((pathvalueImg.length - pathUrl.length) != 1) {
         //2Th
         //1 =

@@ -63,7 +63,7 @@ function NavCart(props) {
                             <p>Subtotal</p>
                             <h3>${totalPrice}</h3>
                         </div>
-                        <Link to='/cart' exact='true'>
+                        <Link to='/cart/' exact='true'>
                             <button className="cart__product__content__button-cart" onClick={() => { onHideNavCart(true) }}>
                                 View Cart
                             </button>

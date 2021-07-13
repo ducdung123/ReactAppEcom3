@@ -15,26 +15,34 @@ export const getListProductsRequest = () => {
             let listProducts = [...response.data];
             listProducts = listProducts.map((value) => {
                 let newValue = { ...value }
-                newValue.img = newValue.img.replace('/img', `${process.env.PUBLIC_URL}/img`)
+                newValue.img = newValue.img.replace('/img', `${process.env.PUBLIC_URL}/img`);
+                newValue.img = newValue.img.replace('./', `../`);
                 // newValue.img = newValue.img.slice(1);
                 // console.log(value)
                 // newValue.img = `.${process.env.PUBLIC_URL}${newValue.img}`;
                 // console.log(value)
                 return { ...newValue };
             })
-
-
-            let wishList = response.data.filter((value, index) => {
+            //console.log(listProducts)
+            let wishList = [...listProducts];
+            wishList = wishList.filter((value, index) => {
                 if (value.wishlist) {
                     return value
                 }
             })
-
-            let cartList = response.data.filter((value, index) => {
+            // console.log(wishList)
+            // let wishList = response.data.filter((value, index) => {
+            //     if (value.wishlist) {
+            //         return value
+            //     }
+            // })
+            let cartList = [...listProducts];
+            cartList = cartList.filter((value, index) => {
                 if (Number(value.inCart) > 0) {
                     return value
                 }
             })
+            //console.log(cartList)
             dispatch(getListProducts([...listProducts]))
             dispatch(getWishList(wishList))
             dispatch(getCartList(cartList))

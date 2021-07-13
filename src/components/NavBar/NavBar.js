@@ -219,7 +219,7 @@ function NavBar() {
                     <div></div>
                     <div></div>
                 </div>
-                <Link to="/" className="navbar-brand" exact='true'>
+                <Link to="/ReactAppEcom3/" className="navbar-brand" exact='true'>
                     <img src={logoImg} />
                 </Link>
                 <ul className="navbar__content">
@@ -244,7 +244,7 @@ function NavBar() {
                 </div> */}
             </div >
             <div className="navbar__icon__res d-flex d-lg-none">
-                <Link to="/" exact='true'>
+                <Link to="/ReactAppEcom3/" exact='true'>
                     <i class="fa fa-home">
                     </i>
                 </Link>

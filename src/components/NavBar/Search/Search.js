@@ -78,6 +78,8 @@ function Search(props) {
 
     listSearch.map((value) => {
         let pathvalueImg = value.img.split('/');
+        // value.img = '../' + value.img;
+        // console.log(value)
         while ((pathvalueImg.length - pathUrl.length) != 1) {
             //2Th
             //1 =
